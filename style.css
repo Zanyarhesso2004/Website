@@ -1,0 +1,60 @@
+/* Volledige CSS-code */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-image: url('img/tiger-jpg\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0 2,4% 0 0.1%;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    padding: 0% 20px;
+    max-height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 170px;
+    background: #1100f9;
+    justify-content: center; /* Plaats het menu in het midden */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav a {
+    color: black;
+}
+
+nav li {
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+.tcr{
+    margin-top: 1000;
+    float: left;
+}
+
+
+/* Stijl voor de afbeelding onder de tijgerfoto */
+img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    float: left 30;
+}

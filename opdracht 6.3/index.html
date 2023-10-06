@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigatiemenu</title>
+    <style>
+        /* Stijl voor het navigatiemenu */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #66f400;
+            padding: 10px;
+        }
+
+        /* Stijl voor het logo en de login */
+        .logo, .login {
+            flex: 1;
+            text-align: center;
+            color: #0b0fff;
+            font-size: 24px;
+        }
+
+        .login {
+            flex: 1;
+            text-align: center;
+            color: #0b0fff;
+            font-size: 24px;
+        }
+
+        /* Stijl voor de navigatielinks */
+        ul.nav-links {
+            flex: 2;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+        }
+
+        ul.nav-links li {
+            margin: 0 10px;
+        }
+
+        ul.nav-links a {
+            text-decoration: none;
+            color: #0b0fff;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Logo</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">My projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="login">
+            <h1>login</h1>
+        </div>
+    </nav>
+</body>
+</html>
